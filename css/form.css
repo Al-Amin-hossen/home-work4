@@ -1,0 +1,157 @@
+.menu{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background: #e1e1e1;
+}
+.form, .table, .home{
+    text-decoration: none;
+    font-size: 18px;
+    color: #0078be;
+    margin-left: 20px;
+}
+.table{
+    color: green;
+}
+.home{
+    color: #000;
+}
+
+
+.wrapper{
+    width: 500px;
+    margin: 50px auto;
+    background: #e1e1e1;
+    padding: 20px 0;
+}
+h1, h4{
+    margin: 0;
+    text-align: center;
+}
+
+h4{
+    color: #414141;
+    margin: 10px 0 20px 0;
+    font-weight: 500;
+}
+hr{
+    margin-bottom: 20px;
+}
+form{
+    margin: 0 40px;
+}
+.name_wrap{
+    display: flex;
+}
+.name_wrap div{
+    width: 50%;
+}
+label.first_name, label.last_name{
+    font-size: 18px;
+}
+input.first_name, input.last_name{
+    width: 80%;
+    height: 20px;
+    padding-left: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+    outline: none;
+}
+label.email{
+    font-size: 18px;
+    display: block;
+}
+input.email{
+    width: 92%;
+    margin: 10px 0;
+    height: 20px;
+    font-size: 14px;
+    padding-left: 10px;
+    outline: none;
+}
+label.phone{
+    font-size: 18px;
+    display: block;
+}
+input.phone{
+    width: 92%;
+    margin: 10px 0;
+    height: 20px;
+    font-size: 14px;
+    padding-left: 10px;
+    outline: none;
+}
+label.pass{
+    font-size: 18px;
+    display: block;
+}
+input.pass{
+    width: 92%;
+    margin: 10px 0;
+    height: 20px;
+    font-size: 14px;
+    padding-left: 10px;
+    outline: none;
+}
+label.dob{
+    font-size: 18px;
+    padding-right: 20px;
+    display: inline-block;
+    margin-top: 5px;
+}
+input.dob{
+    margin: 10px 0;
+    padding: 0 10px;
+    font-size: 14px;
+    outline: none;
+}
+label.gander{
+    font-size: 18px;
+    padding-right: 20px;
+    display: inline-block;
+    margin-top: 5px;
+}
+label.female, label.male, label.other{
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+label.color{
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-right: 20px;
+}
+select{
+    width: 100px;
+    height: 25px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+option.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+
+input#privacy{
+    margin:0 10px 10px;
+}
+
+.button{
+    margin-top: 10px;
+    padding: 10px 70px;
+    font-size: 18px;
+    background: rgb(12, 168, 12);
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.button:hover{
+    background: rgb(80, 158, 80);
+}
